@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <nav class="bg-sky-950 h-16 fixed top-0 w-full z-50">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between h-full mx-auto max-w-8xl md:px-28 md:py-2">
+
+                <div class="hidden sm:flex space-x-16 text-cyan-50 text-xl font-medium">
+                    <a href="./contact.html" class="underline underline-offset-8 hover:text-cyan-200">Contact</a>
+                    <a href="./join.html" class="hover:text-cyan-200">Join</a>
+                </div>
+
+                <div class=" hidden sm:flex items-center">
+                    <a href="./index.html"><img src="./assets/Group 451.png" alt="Logo" class="w-28 mx-auto"></a>
+                </div>
+
+                <div class="hidden sm:flex space-x-16 text-cyan-50 text-xl font-medium">
+                    <a href="./latest.html" class="hover:text-cyan-200">Latest</a>
+                    <a href="./about.html" class="hover:text-cyan-200">About</a>
+                </div>
+
+                <div class="sm:hidden z-10  flex items-center justify-between mx-auto my-5 sm:px-28 sm:py-2">
+                    <button id="mobile-menu-button" class="text-cyan-50 text-2xl">
+                        <i class="bx bx-menu"></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div id="mobile-menu"
+                class="hidden sm:hidden bg-sky-950 absolute top-16 left-0 w-full shadow-lg z-50 text-center">
+                <div class="flex flex-col items-center px-4 py-4 space-y-4">
+                    <a href="./index.html"><img src="./assets/Group 451.png" alt="Logo" class="w-28 mx-auto"></a>
+                    <a href="./contact.html"
+                        class="underline underline-offset-8 text-cyan-50 hover:text-cyan-200">Contact</a>
+                    <a href="./about.html" class="text-cyan-50 hover:text-cyan-200">About</a>
+                    <a href="./join.html" class="text-cyan-50 hover:text-cyan-200">Join</a>
+                    <a href="./latest.html" class="text-cyan-50 hover:text-cyan-200">Latest</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="md:h-[120vh] md:bg-red-700 ">
+
+        <div class="bg-linear-to-r from-cyan-500 to-blue-500">
+            <p
+                class="md:py-50 mt-10 font-bold text-center text-4xl xs:text-2xl pt-20 pb-10 md:text-7xl text-black bg-white">
+                Your
+                <span class="text-red-600">Trusted
+                    Pet</span>
+                <br>Relocation Partner
+            </p>
+
+        </div>
+        <div class="clearfix">
+            <img src="./assets/image 4.png" alt=""
+                class="overflow-hidden hidden md:flex sm:flex xs:flex   float-left mt-10">
+            <img src="./assets/image 3.png" alt="" class="overflow-hidden hidden md:flex sm:flex xs:flex float-right">
+        </div>
+        <div class="flex justify-center ">
+
+
+
+
+
+            <form
+                class="md:w-full md:max-w-2xl   sm:max-w-md sm:py-2 md:py-14 xs:py-1 px-10 bg-sky-950 p-6 rounded-lg shadow-lg  my-36 md:my-60 ">
+                <div class="flex flex-col gap-y-8">
+                    <div class="md:flex gap-x-7">
+
+                        <label class="block">
+                            <span class="text-gray-200 text-xl font-medium">Email</span>
+                            <input type="email"
+                                class="peer mt-2 block w-full px-8 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="Enter your email" required />
+
+                        </label>
+
+                        <label class="block">
+                            <span class="text-gray-200 text-xl font-medium">Phone No.</span>
+                            <input type="text"
+                                class="peer mt-2 block w-full px-12 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="Enter your phone number" required />
+
+                        </label>
+                    </div>
+
+                    <label class="block">
+                        <span class="text-gray-200 text-xl font-medium">Message</span>
+                        <textarea
+                            class="peer mt-2 block w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            placeholder="Write your message here..." rows="4" required></textarea>
+
+                    </label>
+                    <button type="submit"
+                        class="bg-red-600 text-slate-200 text-lg font-bold hover:bg-red-800 rounded-lg px-4 py-3 w-full transition-all duration-200">
+                        Submit
+                    </button>
+                </div>
+            </form>
+
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="">
+        <div class="backdrop-opacity-10  py-10 sm:py-14"
+            style="background-image: linear-gradient(rgba(1, 38, 73, 0.918), rgba(1, 38, 73, 0.904)), url('./assets/download (13).jpg'); background-position: center;">
+
+            <div class="container mx-auto grid grid-cols-3 gap-6 items-center h-full">
+
+
+                <div class="flex flex-col space-y-10 items-center text-center">
+                    <img class="w-28 overflow-hidden hidden sm:flex" src="./assets/Group 451.png" alt="">
+                    <p class="text-white overflow-hidden hidden sm:flex">
+                        Subscribe to get the latest update<br />
+                        Lorem ipsum dolor sit amet consectetur. Ultrices diam non odio.
+                    </p>
+                    <div class="flex space-x-2 justify-center">
+                        <a href="#" class="text-red-600 text-4xl">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="text-red-600 text-4xl">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-red-600 text-3xl">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="md:flex items-center justify-center text-center">
+                    <div class="text-white md:text-xl xs:text-xs xs:font-extralight md:space-y-4">
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Contact
+                            Us</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">About
+                            Us</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Help</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Customer
+                        </a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">View
+                            More</a>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center justify-center text-center">
+                    <div class="text-white md:text-xl xs:text-xs xs:font-extralight md:space-y-4">
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Services</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Reviews</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Team</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Pricing</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Benefits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const toggleButton = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        toggleButton.addEventListener("click", () => {
+
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+
+
+</body>
+
+</html>

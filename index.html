@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <nav class="bg-sky-950 h-16 fixed top-0 w-full z-50">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between h-full mx-auto max-w-8xl md:px-28 md:py-2">
+
+                <div class="hidden sm:flex space-x-16 text-cyan-50 text-xl font-medium">
+                    <a href="./contact.html" class="hover:text-cyan-200">Contact</a>
+                    <a href="./join.html" class="hover:text-cyan-200">Join</a>
+                </div>
+
+                <div class=" hidden sm:flex items-center">
+                    <a href="./index.html"><img src="./assets/Group 451.png" alt="Logo" class="w-28 mx-auto"></a>
+                </div>
+
+                <div class="hidden sm:flex space-x-16 text-cyan-50 text-xl font-medium">
+                    <a href="./latest.html" class="hover:text-cyan-200">Latest</a>
+                    <a href="./about.html" class="hover:text-cyan-200">About</a>
+                </div>
+
+                <div class="sm:hidden z-10  flex items-center justify-between mx-auto my-5 sm:px-28 sm:py-2">
+                    <button id="mobile-menu-button" class="text-cyan-50 text-2xl">
+                        <i class="bx bx-menu"></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div id="mobile-menu"
+                class="hidden sm:hidden bg-sky-950 absolute top-16 left-0 w-full shadow-lg z-50 text-center">
+                <div class="flex flex-col items-center px-4 py-4 space-y-4">
+                    <a href="./index.html"><img src="./assets/Group 451.png" alt="Logo" class="w-28 mx-auto"></a>
+                    <a href="./contact.html" class="text-cyan-50 hover:text-cyan-200">Contact</a>
+                    <a href="./about.html" class="text-cyan-50 hover:text-cyan-200">About</a>
+                    <a href="./join.html" class="text-cyan-50 hover:text-cyan-200">Join</a>
+                    <a href="./latest.html" class="text-cyan-50 hover:text-cyan-200">Latest</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative">
+
+        <div class="backdrop-opacity-10 md:h-[80vh] xs:h-[80vh] sm:h-[80vh] py-10 sm:py-14 flex items-center justify-center"
+            style="background-image: linear-gradient(rgba(180, 1, 1, 0.836), rgba(180, 1, 1, 0.836)), url('./assets/download (13).jpg'); background-position: center;">
+
+            <img src="./as" alt="">
+            <img class="md:h-1/2  " src="./assets/group-portrait-adorable-puppies_53876-64777-removebg-preview 1.png"
+                alt="Puppies" />
+
+
+            <div
+                class="absolute md:-bottom-52 md:left-1/2 md:transform md:-translate-x-1/2 flex-col md:flex-row w-full max-w-6xl bg-white rounded-lg shadow-lg overflow-hidden hidden sm:flex ">
+
+                <div
+                    class="bg-sky-950 p-8 py-20 flex flex-col justify-center items-center text-center gap-y-6 md:w-1/3">
+                    <img class="mx-auto" src="./assets/Group 297.png" alt="Group Image" />
+                    <p class="text-xl text-cyan-50">Unlock the potential for success with our services</p>
+                    <button class="bg-sky-500 text-slate-200 text-lg font-bold hover:bg-sky-700 rounded-3xl px-8 py-3">
+                        Save changes
+                    </button>
+                </div>
+
+
+                <div class="p-8 flex-1">
+
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img class="h-12 w-12 rounded-full" src="./assets/Ellipse 5.png" alt="User Image" />
+                        <div class="flex flex-col">
+                            <p class="text-lg font-semibold">Jiff Bazos</p>
+                            <p class="text-sm text-gray-500">hello</p>
+                        </div>
+                    </div>
+
+
+                    <img class="mb-4" src="./assets/Group 67.png" alt="Main Content Image" />
+
+
+                    <p class="text-sm text-gray-700 mb-6">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia nisi expedita culpa dolore
+                        dicta accusantium vitae praesentium debitis labore! Quisquam consectetur odit beatae culpa
+                        quo
+                        assumenda quibusdam, esse quia blanditiis!
+                    </p>
+
+
+                    <div class="flex gap-4">
+                        <img class="w-1/4 md:w-1/4" src="./assets/Rectangle 100.png" alt="Thumbnail" />
+                        <img class="w-1/4 md:w-1/4" src="./assets/Rectangle 101.png" alt="Thumbnail" />
+                        <img class="w-1/4 md:w-1/4" src="./assets/Rectangle 102.png" alt="Thumbnail" />
+                        <img class="w-1/4 md:w-1/4" src="./assets/Rectangle 103.png" alt="Thumbnail" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="container mx-auto px-4 md:my-32">
+
+        <div class="flex flex-col text-center py-10 md:py-20">
+            <p class="text-red-900 text-xl sm:text-2xl font-bold">Our services</p>
+            <p class="text-gray-700 text-2xl sm:text-3xl font-extrabold">Quality Services</p>
+        </div>
+
+
+        <div class="grid gap-y-10 md:grid-cols-3 md:w-full md:gap-x-6 py-6">
+
+            <div class="flex flex-col items-center gap-y-4">
+                <img src="./assets/Rectangle 32.png" alt="Service Image" class="w-full sm:w-auto rounded-lg">
+                <p class="text-red-900 text-base sm:text-lg font-bold">Freight Rates Search</p>
+                <p class="text-sm sm:text-base text-gray-600 text-center px-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, similique consequatur aliquam
+                    nemo
+                    at omnis blanditiis, adipisci itaque saepe sint ad atque reiciendis magnam illo quaerat, facere
+                    suscipit corrupti dolor.
+                </p>
+                <button class="bg-red-600 text-white text-xs sm:text-sm hover:bg-red-800 rounded-3xl px-4 py-2">
+                    Save changes
+                </button>
+            </div>
+
+
+            <div class="flex flex-col items-center gap-y-4">
+                <img src="./assets/Rectangle 34.png" alt="Service Image" class="w-full sm:w-auto rounded-lg">
+                <p class="text-red-900 text-base sm:text-lg font-bold">Freight Rates Search</p>
+                <p class="text-sm sm:text-base text-gray-600 text-center px-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, similique consequatur aliquam
+                    nemo
+                    at omnis blanditiis, adipisci itaque saepe sint ad atque reiciendis magnam illo quaerat, facere
+                    suscipit corrupti dolor.
+                </p>
+                <button class="bg-red-600 text-white text-xs sm:text-sm hover:bg-red-800 rounded-3xl px-4 py-2">
+                    Save changes
+                </button>
+            </div>
+
+
+            <div class="flex flex-col items-center gap-y-4">
+                <img src="./assets/Rectangle 33.png" alt="Service Image" class="w-full sm:w-auto rounded-lg">
+                <p class="text-red-900 text-base sm:text-lg font-bold">Freight Rates Search</p>
+                <p class="text-sm sm:text-base text-gray-600 text-center px-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, similique consequatur aliquam
+                    nemo
+                    at omnis blanditiis, adipisci itaque saepe sint ad atque reiciendis magnam illo quaerat, facere
+                    suscipit corrupti dolor.
+                </p>
+                <button class="bg-red-600 text-white text-xs sm:text-sm hover:bg-red-800 rounded-3xl px-4 py-2">
+                    Save changes
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="my-10">
+            <p class="font-bold text-2xl sm:text-4xl text-center">What Makes <span class="text-red-900">Us
+                    Different?</span></p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 items-start">
+
+            <div class="flex flex-col pt-10 sm:pt-20">
+
+                <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10 sm:mx-6">
+                    <img src="./assets/Ellipse 4.png" alt="Profile Picture" class="w-16 sm:w-24 md:w-32 lg:w-40">
+                    <div class="flex flex-col sm:my-4 sm:px-4">
+                        <p class="text-red-900 font-bold text-lg sm:text-xl md:text-2xl">Philip Adam</p>
+                        <p class="text-gray-700 text-sm sm:text-base md:text-xl">HR Manager</p>
+                        <img src="./assets/Group 67.png" alt="Icon" class="w-16 sm:w-24 md:w-32 lg:w-40 mt-4 sm:mt-6">
+                    </div>
+                </div>
+                <p
+                    class="my-6 sm:my-10 xs:leading-0 text-xs sm:text-sm md:text-base px-4 sm:px-6 md:px-10 text-gray-600">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat velit optio laborum ex neque
+                    facere
+                    reiciendis, nulla magni sit? Tempora enim neque vero ea ad cum ducimus eos eaque amet!
+                </p>
+
+            </div>
+            <img src="./assets/image 5.png" alt="Decorative Image" class="w-full sm:w-auto md:w-1/2 lg:w-auto">
+        </div>
+
+
+
+
+
+    </section>
+
+    <div class="mb-20  mx-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-2 sm:mx-4">
+
+            <div class="grid gap-y-2 sm:mx-4">
+                <p class="font-bold text-2xl md:text-4xl text-center">
+                    What Makes <span class="text-red-900">Us Different?</span>
+                </p>
+                <p class="text-sm md:text-lg md:font-bold  md:leading-9">
+                    Lorem ipsum dolor sit amet consectetur. Tempor vulputate adipiscing suscipit pellentesque orci
+                    quam dis
+                    venenatis. Arcu pulvinar eget ac sit nullam aenean quam consequat. Diam aliquet duis vitae magna
+                    id sit
+                    morbi. Dictum volutpat tempus lacinia eget. Vel lorem dui accumsan sagittis elementum. Vulputate
+                    orci
+                    pellentesque sit tempus nisl arcu vel elementum. Blandit turpis molestie gravida nunc risus
+                    maecenas.
+                </p>
+                <button
+                    class="bg-red-600 text-slate-200 text-sm md:text-lg font-bold hover:bg-red-800 rounded-2xl px-4 py-2 w-1/2 mx-auto md:w-1/2">
+                    Learn More
+                </button>
+            </div>
+
+            <div
+                class="bg-sky-950 rounded-lg shadow-lg text-center flex flex-col justify-center items-center p-6 space-y-4 sm:mx-4">
+                <img src="./assets/Ellipse 6.png" alt="" class="w-16 sm:w-24 md:w-30 mx-auto">
+                <div class="flex-col space-y-2">
+                    <p class="text-white font-bold text-lg md:text-2xl">Philip Adam</p>
+                    <p class="text-red-300 font-extralight text-xs md:text-xl">HR Manager</p>
+                </div>
+                <img src="./assets/Group 67.png" alt="" class="w-20 sm:w-24 md:w-32 mx-auto">
+                <p class="text-xs md:text-base text-white px-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat velit optio laborum ex neque
+                    facere
+                    reiciendis, nulla magni sit? Tempora enim neque vero ea ad cum ducimus eos eaque amet!
+                </p>
+            </div>
+
+            <div
+                class="bg-sky-950 rounded-lg shadow-lg text-center flex flex-col justify-center items-center p-6 space-y-4 sm:mx-4">
+                <img src="./assets/Ellipse 5.png" alt="" class="w-16 sm:w-24 md:w-30 mx-auto">
+                <div class="flex-col space-y-2">
+                    <p class="text-white font-bold text-lg md:text-2xl">Philip Adam</p>
+                    <p class="text-red-300 font-extralight text-xs md:text-xl">HR Manager</p>
+                </div>
+                <img src="./assets/Group 67.png" alt="" class="w-20 sm:w-24 md:w-32 mx-auto">
+                <p class="text-xs md:text-base text-white px-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat velit optio laborum ex neque
+                    facere
+                    reiciendis, nulla magni sit? Tempora enim neque vero ea ad cum ducimus eos eaque amet!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="backdrop-opacity-10 md:h-[60vh]"
+            style="background-image: linear-gradient(rgba(1, 38, 73, 0.918), rgba(1, 38, 73, 0.904)), url('./assets/download (13).jpg'); background-position: center;">
+            <div class="container mx-auto flex justify-center items-center ">
+                <div class="grid md:grid-cols-2 md:gap-x-20 w-full ">
+                    <div class=" my-20 flex flex-col justify-center">
+                        <p class="font-bold md:ext-5xl text-center text-white">Subscribe for Newsletter</p>
+                        <p class="md:text-lg font-bold md:leading-9 text-white ">
+                            Lorem ipsum dolor sit amet consectetur. Tempor vulputate adipiscing suscipit pellentesque
+                            orci
+                            quam dis venenatis.
+                            Arcu pulvinar eget ac sit nullam aenean quam consequat. Diam aliquet duis vitae magna id sit
+                            morbi.
+                            Dictum volutpat tempus lacinia eget. Vel lorem dui accumsan sagittis elementum. Vulputate
+                            orci
+                            pellentesque sit tempus
+                            nisl arcu vel elementum. Blandit turpis molestie gravida nunc risus maecenas.
+                        </p>
+                        <form class="md:w-full max-w-md  mt-8">
+                            <label class="block ">
+                                <span class=" text-gray-400 text-xl font-medium ">Email</span>
+                                <input type="email"
+                                    class="peer mt-2 block w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Enter your email" />
+                                <p class="invisible peer-invalid:visible text-red-500 text-sm mt-2">Please provide a
+                                    valid
+                                    email address.</p>
+                            </label>
+                        </form>
+
+                        <button
+                            class="bg-red-600 text-slate-200 md:text-lg sm:text-sm font-bold hover:bg-red-800 rounded-2xl px-2 py-4 md:w-1/2">
+                            learn more
+                        </button>
+                    </div>
+                    <div class="md:flex sm:flex justify-center items-center overflow-hidden hidden xs:flex ">
+                        <img class="md:h-[45vh] w-full" src="./assets/image 15.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class=" bg-gray-100 py-10 md:h-[40vh] flex md:items-center ">
+        <div class="container mx-auto grid  md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-2">
+            <div class="flex flex-col space-y-4">
+                <p class="font-bold text-xl md:text-6xl text-gray-900 ">Want to Talk? <br /> Please Call Us</p>
+                <div class="flex items-center space-x-2 ">
+                    <i class="bx bx-phone md:text-5xl text-red-600"></i>
+                    <div class="text-gray-500 md:text-xl ">
+                        <p>+2545783659768</p>
+                        <p>+45757845746587</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <p class="font-bold md:text-6xl text-gray-900 ">Get in touch</p>
+                <p class="text-gray-600 ">
+                    Subscribe to get the latest update<br />
+                    Lorem ipsum dolor sit amet consectetur. Ultrices diam non odio.
+                </p>
+                <div class="flex items-center space-x-1">
+                    <a href="#" class="text-red-600 text-4xl">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#" class="text-red-600 text-4xl">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-red-600 text-3xl">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="">
+        <div class="backdrop-opacity-10 md:h-[60vh] sm:h-[100vh] py-10 sm:py-14"
+            style="background-image: linear-gradient(rgba(1, 38, 73, 0.918), rgba(1, 38, 73, 0.904)), url('./assets/download (13).jpg'); background-position: center;">
+            <div class="container mx-auto grid grid-cols-3 gap-6 items-center h-full">
+
+
+                <div class="flex flex-col space-y-10 items-center text-center">
+                    <img class="w-28 overflow-hidden hidden sm:flex" src="./assets/Group 451.png" alt="">
+                    <p class="text-white overflow-hidden hidden sm:flex">
+                        Subscribe to get the latest update<br />
+                        Lorem ipsum dolor sit amet consectetur. Ultrices diam non odio.
+                    </p>
+                    <div class="flex space-x-2 justify-center">
+                        <a href="#" class="text-red-600 text-4xl">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="#" class="text-red-600 text-4xl">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-red-600 text-3xl">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="md:flex items-center justify-center text-center">
+                    <div class="text-white md:text-xl xs:text-xs xs:font-extralight md:space-y-4">
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Contact
+                            Us</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">About
+                            Us</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Help</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Customer
+                        </a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">View
+                            More</a>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center justify-center text-center">
+                    <div class="text-white md:text-xl xs:text-xs xs:font-extralight md:space-y-4">
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Services</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Reviews</a>
+                        <a href="./" class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Our
+                            Team</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Pricing</a>
+                        <a href="./"
+                            class="flex md:py-2 hover:text-cyan-200 hover:underline underline-offset-8">Benefits</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        const toggleButton = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        toggleButton.addEventListener("click", () => {
+
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+
+</body>
+
+</html>
