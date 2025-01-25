@@ -1,5 +1,1 @@
-![Image 1](images/screencapture-127-0-0-1-5500-index-html-2025-01-25-18_17_23.png)
-![Image 2](images/screencapture-127-0-0-1-5500-join-html-2025-01-25-18_17_44.png)
-![Image 3](images/screencapture-127-0-0-1-5500-latest-html-2025-01-25-18_18_05.png)
-![Image 4](images/screencapture-127-0-0-1-5500-contact-html-2025-01-25-18_17_38.png)
-![Image 5](images/screencapture-127-0-0-1-5500-about-html-2025-01-25-18_18_18.png)
+
